@@ -12,7 +12,7 @@ if(isset($_POST['asignin']))
     $query = mysqli_query($conn,$sql);
     $row = mysqli_fetch_array($query);
 
-    if($row['password'] == `$password` )
+    if($row['password'] == $password )
     {
             $_SESSION['sess_user'] = $row['username'];
             $_SESSION['sess_user1'] = "Admin";
