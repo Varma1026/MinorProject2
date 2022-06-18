@@ -1,44 +1,4 @@
-.profile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.profile p{
-    color: darkgray;
-    font-size: 30px;
-}
-.profile img{
-    outline: 5px solid darkslateblue;
-}
-.detailshead{
-    color: darkslateblue;
-    font-weight: 900;
-}
-input, select{
-   /* outline: 1px solid darkslateblue;*/
-}
-.leave{
-    color: darkslateblue;
-    font-weight: bold;
-}
-.dark{
+.nav{
     background-color: darkslateblue;
-    border: 2px solid darkslateblue;
     color: white;
-}
-.dark:hover{
-    background-color: white;
-    color: darkslateblue;
-}
-h2{
-    font-weight: bolder;
-    color: darkslateblue;
-}
-.card{
-    border-top: 4px solid darkslateblue;
-}
-.leave{
-    font-size: 25px;
-    color: darkgray;
-    font-weight: 100;
 }
