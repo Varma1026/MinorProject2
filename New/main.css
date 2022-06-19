@@ -32,3 +32,8 @@ body::-webkit-scrollbar{
     background-size: cover;
     background-position: center;
 }
+.register-student{
+    background-image: url('register.jpg');
+    background-size: cover;
+    background-position: center;
+}
