@@ -2,6 +2,9 @@
     background-color: darkslateblue;
     color: white;
 }
+body::-webkit-scrollbar{
+    width: 0px;
+}
 .forgot{
     text-decoration: none;
     color: black;
@@ -20,4 +23,12 @@
 }
 .brand{
     font-size: 1.2rem;
+}
+.login-student{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Students.jpg');
+    background-size: cover;
+    background-position: center;
 }
